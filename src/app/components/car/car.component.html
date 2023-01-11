@@ -1,0 +1,13 @@
+<div *ngIf="dataLoaded==false" class="spinner-border text-secondary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+<table *ngIf="dataLoaded==true" class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Model Yılı</th>
+            <th>Araç Açıklaması</th> 
+            <th>Araç Günlük Fiyat</th>
+        </tr>
+    </thead>
+</table>
